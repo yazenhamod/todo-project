@@ -1,0 +1,25 @@
+.topnav-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    position: sticky;
+    background-color: #47d8ec;
+    top: 0; /* sticks the topnav to the top*/
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Box shadow effect */
+    z-index: 100000;
+}
+
+.topnav-content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnav-content-buttons {
+    margin: 2%;
+}
+
+.topnav-content-username {
+    margin: 2%;
+}

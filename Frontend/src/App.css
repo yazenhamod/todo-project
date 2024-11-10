@@ -1,0 +1,30 @@
+html {
+  width: 100vw;
+  margin: 0;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#root {
+  height: 100%;
+}
+
+.outer-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+}
